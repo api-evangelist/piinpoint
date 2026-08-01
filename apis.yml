@@ -1,7 +1,25 @@
 aid: piinpoint
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/piinpoint.png
 name: Piinpoint
-description: Piinpoint is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  PiinPoint is an AI-powered location intelligence and site selection platform for retailers,
+  restaurants, brokers, and commercial real estate teams. The software combines demographic,
+  mobile-location, traffic, and competitive data to help teams validate sites, forecast sales,
+  model cannibalization, run network simulations, and plan expansion. Delivered as a B2B SaaS
+  web application (app.piinpoint.com), PiinPoint does not currently publish a public developer
+  API, developer portal, or SDK. This profile was surfaced as a Y Combinator portfolio company
+  and enriched by the API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/piinpoint/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +29,42 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Location Intelligence
+- Site Selection
+- Geospatial
+- Real Estate
+- Retail Analytics
+- Market Planning
 apis: []
+common:
+- type: DomainSecurity
+  url: security/piinpoint-domain-security.yml
+- type: Website
+  url: https://www.piinpoint.com
+- type: SignUp
+  url: https://app.piinpoint.com/
+- type: Login
+  url: https://app.piinpoint.com/
+- type: Pricing
+  url: https://www.piinpoint.com/pricing
+- type: Support
+  url: https://help.piinpoint.com/en/
+- type: HelpCenter
+  url: https://help.piinpoint.com/en/
+- type: Blog
+  url: https://www.piinpoint.com/resources
+- type: PrivacyPolicy
+  url: https://app.piinpoint.com/files/privacy.pdf
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
