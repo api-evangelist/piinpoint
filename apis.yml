@@ -46,7 +46,7 @@ tags:
 - Location Intelligence
 - Site Selection
 - Geospatial
-- Real-Estate
+- Real Estate
 - Retail Analytics
 - Market Planning
 tags_raw:
@@ -57,6 +57,7 @@ tags_raw:
 - Real Estate
 - Retail Analytics
 - Market Planning
+- Real-Estate
 apis: []
 common:
 - type: DomainSecurity
